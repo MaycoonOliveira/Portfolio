@@ -1,0 +1,67 @@
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-thin-rounded.css");
+/* @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-rounded-bold.css"); */
+/* @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-rounded-solid.css"); */
+
+/* @import "~@flaticon/flaticon-uicons/css/{FONTWEIGHT}/{STYLENAME}";
+@import "~@flaticon/flaticon-uicons/css/brands/all"; */
+
+.cabecalho__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0%;
+  /* position: fixed; */
+  /* width: 1,136px; */
+  height: 88px;
+  padding: 32px 0px;
+  background-color: antiquewhite;
+}
+
+.cabecalho__nome {
+}
+
+.cabecalho__nomes__itens {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho__item {
+}
+
+.cabecalho__lista {
+}
+
+.div__cabecalho__item {
+}
+
+.sessao__apresentacao__container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 141);
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 141);
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+}
+
+.sessao__apresentacao__links__container ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.img__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img {
+  width: 10%;
+  height: 10%;
+}
