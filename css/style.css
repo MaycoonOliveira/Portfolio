@@ -1,30 +1,59 @@
 @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css");
 @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
 @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-thin-rounded.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-rounded-bold.css"); */
 /* @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-rounded-solid.css"); */
 
 /* @import "~@flaticon/flaticon-uicons/css/{FONTWEIGHT}/{STYLENAME}";
 @import "~@flaticon/flaticon-uicons/css/brands/all"; */
 
+/* :root {
+  --global--font-family: "Raleway", sans-serif;
+  --global--font-size: 16px;
+  --global--font-weight: 700;
+  --global--line-height: 18.78px;
+  --global--text-align: left;
+} */
+
+.body {
+  background: #f5f5f5;
+}
+
+.links {
+  text-decoration: none;
+  color: #464646;
+}
+
+/* SESSÃO CABEÇALHO HEADER */
+
 .cabecalho__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   top: 0%;
-  /* position: fixed; */
-  /* width: 1,136px; */
   height: 88px;
   padding: 32px 0px;
-  background-color: antiquewhite;
 }
 
 .cabecalho__nome {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
 }
 
 .cabecalho__nomes__itens {
   display: flex;
   gap: 32px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
 }
 
 .cabecalho__item {
@@ -36,32 +65,399 @@
 .div__cabecalho__item {
 }
 
+/* SESSÃO APRESENTAÇÃO */
+
 .sessao__apresentacao__container {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(236, 236, 141);
-
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(236, 236, 141);
-  justify-content: space-around;
   align-items: center;
-  margin: 5rem;
+  margin: 32px 132px;
+}
+
+.sessao__apresentacao__perfil {
+}
+
+.sessao__apresentacao__perfil h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 61.05px;
+  text-align: left;
+  color: #464646;
+}
+
+.sessao__apresentacao__perfil p {
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25.83px;
+  text-align: left;
+  color: #464646;
 }
 
 .sessao__apresentacao__links__container ul {
   display: flex;
-  flex-direction: row;
+  gap: 32px;
+  list-style: none;
 }
 
-.img__content{
+.sessao__apresentacao__links__container ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.img__content {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .img {
-  width: 10%;
-  height: 10%;
+  width: 80%;
+  height: 100%;
+  border-radius: 50%;
+
 }
+
+/* SESSÃO SOBRE MIM */
+
+.sessao__sobre__mim__container {
+  display: flex;
+  flex-direction: column;
+  background: #eaf2fd;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.sessao__sobre__mim__itens div h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: left;
+  color: #464646;
+}
+
+.sessao__sobre__mim__itens div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.sessao__sobre__mim__itens {
+  margin: 64px 152px;
+}
+
+/* SESSÃO SKILLS */
+
+.sessao__skills__container {
+  margin-top: 32px;
+}
+
+.sessao__skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.sessao__skill__nome {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+}
+
+.sessao__skill__itens {
+}
+
+.sessao__skill__itens ul {
+  display: flex;
+  padding: 16px;
+  gap: 8px;
+}
+
+.sessao__skill__itens ul li {
+  padding: 16px;
+  background: #ffffff;
+  width: 150px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.skill__img__html {
+  width: 24px;
+  height: 37px;
+}
+
+.skill__img__js {
+  width: 28px;
+  height: 37px;
+}
+
+.skill__img__php {
+  width: 40px;
+  height: 37px;
+}
+
+.skill__img__node {
+  width: 40px;
+  height: 37px;
+}
+
+.skill__img__react {
+  width: 32px;
+  height: 37px;
+}
+
+.skill__img__css {
+  width: 22px;
+  height: 35.54px;
+  padding: 3.85px 0px 3.85px 0px;
+}
+
+.skill__span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+/* SESSÃO HOBBIES */
+
+.sessao__hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.sessao__hobbies__nome {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+}
+
+.sessao__hobbies__itens {
+}
+
+.sessao__hobbies__itens ul {
+  display: flex;
+  padding: 16px;
+  gap: 8px;
+}
+
+.sessao__hobbies__itens ul li {
+  padding: 16px;
+  background: #ffffff;
+  width: 150px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.hobbies__img__skate {
+  width: 24px;
+  height: 37px;
+}
+
+.hobbies__img__guitar {
+  width: 28px;
+  height: 37px;
+}
+
+.hobbies__img__headphones {
+  width: 40px;
+  height: 37px;
+}
+
+.hobbies__img__séries {
+  width: 40px;
+  height: 37px;
+}
+
+.hobbies__img__cozinhar {
+  width: 32px;
+  height: 37px;
+}
+
+.hobbies__img__foto {
+  width: 22px;
+  height: 35.54px;
+  padding: 3.85px 0px 3.85px 0px;
+}
+
+.hobbies__span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+/* SESSÃO FORMAÇÃO ACADÊMICA */
+
+.sessao__formacao__academica__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eaf2fd;
+  gap: 10px;
+}
+
+.sessao__formacao__academica {
+  margin-bottom: 50px;
+}
+
+.sessao__formacao__academica__nome {
+  margin-top: 22px;
+}
+
+.sessao__formacao__academica__nome p {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+}
+
+.sessao__formacao__academica__itens__container {
+  display: flex;
+  gap: 16px;
+}
+
+.sessao__formacao__academica__item {
+  padding: 16px;
+  background: #ffffff;
+  width: 330px;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formacao__academica__img__ufpr {
+  width: 192px;
+  height: 130px;
+}
+
+.formacao__academica__img__alura {
+  width: 192px;
+  height: 130px;
+}
+
+.formacao__academica__img__ufrj {
+  width: 192px;
+  height: 130px;
+}
+
+.formacao__academica__span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+.formacao__academica__span__status {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+/* SESSÃO EXPERIÊNCIA PROFISSIONAL*/
+
+.sessao__experiencia__profissional {
+}
+
+.experiencia__profissional__nome {
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+}
+
+.experiencia__decodificador__container {
+  display: flex;
+  padding: 0px 152px;
+}
+
+.experiencia__decodificador__img {
+  width: 640px;
+  height: 426px;
+  padding: 10px 0px 64px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.experiencia__decodificador__itens {
+  padding: 147px 16px;
+}
+
+.decodificador__texto1 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  color: #464646;
+}
+
+.decodificador__texto2 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.decodificador__texto__button1 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+
+}
+
+.decodificador__texto__button2 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  background-color: #2a7ae4;
+  color: #ffffff;
+}
+
+
+

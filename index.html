@@ -7,67 +7,242 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Portfólio</title>
 </head>
 
-<body>
+<body class="body">
 
     <header>
         <nav class="cabecalho__container">
 
             <div class="cabecalho__nome">
-                <a href="#">Maycon Oliveira</a>
+                <a class="links" href="#">Maycon Oliveira</a>
             </div>
 
             <div class="cabecalho__nomes__itens">
-                <a href="#">Sobre mim</a>
-                <a href="#">Skills</a>
-                <a href="#">Hobbies</a>
-                <a href="#">Formação</a>
-                <a href="#">Projetos</a>
-                <a href="#">maycon009silva@gmail.com</a>
+                <a class="links" href="#">Sobre mim</a>
+                <a class="links" href="#">Skills</a>
+                <a class="links" href="#">Hobbies</a>
+                <a class="links" href="#">Formação</a>
+                <a class="links" href="#">Projetos</a>
+                <a class="links" href="#">maycon009silva@gmail.com</a>
             </div>
 
         </nav>
     </header>
 
     <main>
-        <section>
-            <div class="sessao__apresentacao__container">
+        <section class="sessao__apresentacao__container">
+            <div class="sessao__apresentacao__perfil">
                 <h1>Olá, meu nome é Maycon Oliveira e construo páginas web</h1>
                 <p>Eu sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou participando no projeto
                     Oracle ONE na Alura.</p>
 
+
                 <div class="sessao__apresentacao__links__container">
                     <ul>
                         <li>
-                            <a href="#">Github</a>
-                            <i class="fi-rr-arrow-up-right"></i>
+                            <a class="links" href="#">Github</a>
+                            <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
-                            <a href="#">Linkedin</a>
-                            <i class="fi-rr-arrow-up-right"></i>
+                            <a class="links" href="#">Linkedin</a>
+                            <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
-                            <a href="#">Instagram</a>
-                            <i class="fi-rr-arrow-up-right"></i>
+                            <a class="links" href="#">Instagram</a>
+                            <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
-                            <a href="#">Currículo</a>
-                            <i class="fi-rr-arrow-up-right"></i>
+                            <a class="links" href="#">Currículo</a>
+                            <img src="./assets/seta.png" alt="seta">
                         </li>
                     </ul>
                 </div>
 
-                
-                <div class="img__content">
-                    <img class="img" src="/assets/unsplash_anAAZ0nrqBY.png" alt="imagem capa">
-                </div>
-               
+            </div>
 
+            <div class="img__content">
+                <img class="img" src="/assets/perfil2.jpg" alt="imagem capa">
+            </div>
+
+        </section>
+
+        <section class="sessao__sobre__mim__container">
+            <div class="sessao__sobre__mim__itens">
+                <div>
+                    <h2>Sobre mim</h2>
+
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
+                        semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+                        potenti. Ut semper sagittis ligula et lacinia.
+                        <br>
+                        <br>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
+                        semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+                        potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus
+                        vitae, aliquet metus.
+                    </p>
+                </div>
+                <div>
+                    <img src="./assets/assinatura.png" alt="">
+                </div>
 
             </div>
+        </section>
+
+        <section class="sessao__skills__container">
+            <div class="sessao__skill">
+
+                <p class="sessao__skill__nome">Skills</p>
+
+                <div class="sessao__skill__itens">
+                    <ul>
+                        <li>
+                            <img class="skill__img__html" src="./assets/html5.png" alt="html5">
+                            <span class="skill__span">HTML</span>
+                        </li>
+                        <li>
+                            <img class="skill__img__js" src="./assets/JS.png" alt="JavaScript">
+                            <span class="skill__span">JavaScript</span>
+                        </li>
+                        <li>
+                            <img class="skill__img__php" src="./assets/php.png" alt="php">
+                            <span class="skill__span">PHP</span>
+                        </li>
+                        <li>
+                            <img class="skill__img__node" src="./assets/node.png" alt="node">
+                            <span class="skill__span">Node JS</span>
+                        </li>
+                        <li>
+                            <img class="skill__img__react" src="./assets/react.png" alt="React">
+                            <span class="skill__span">React</span>
+                        </li>
+                        <li>
+                            <img class="skill__img__css" src="./assets/css.png" alt="CSS">
+                            <span class="skill__span">CSS</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="sessao__hobbies">
+
+                <p class="sessao__hobbies__nome">Hobbies</p>
+
+                <div class="sessao__hobbies__itens">
+                    <ul>
+                        <li>
+                            <img class="hobbies__img__skate" src="./assets/andar-de-skate.png" alt="Andar de skate">
+                            <span class="hobbies__span">Andar de skate</span>
+                        </li>
+                        <li>
+                            <img class="hobbies__img__guitar" src="./assets/guitar.png" alt="Tocar baixo">
+                            <span class="hobbies__span">Tocar baixo</span>
+                        </li>
+                        <li>
+                            <img class="hobbies__img__headphones" src="./assets/headphones_black.png"
+                                alt="Ouvir música">
+                            <span class="hobbies__span">Ouvir música</span>
+                        </li>
+                        <li>
+                            <img class="hobbies__img__séries" src="./assets/series.png" alt="Assistir séries">
+                            <span class="hobbies__span">Assistir séries</span>
+                        </li>
+                        <li>
+                            <img class="hobbies__img__cozinhar" src="./assets/cozinhar.png" alt="Cozinhar">
+                            <span class="hobbies__span">Cozinhar</span>
+                        </li>
+                        <li>
+                            <img class="hobbies__img__foto" src="./assets/foto.png" alt="Tirar fotos">
+                            <span class="hobbies__span">Tirar fotos</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="sessao__formacao__academica__container">
+                <div class="sessao__formacao__academica">
+                    <div class="sessao__formacao__academica__nome">
+                        <p class="sessao__formacao__academica__nome">Formação Acadêmica</p>
+                    </div>
+
+                    <div class="sessao__formacao__academica__itens__container">
+
+                        <div>
+                            <div class="sessao__formacao__academica__item">
+                                <img class="formacao__academica__img__ufpr" src="./assets/UFPR.png" alt="ufpr">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span class="formacao__academica__span mt-1 mb-2">Análise de dados</span>
+                                <span class="formacao__academica__span__status">2018 - UFRP</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="sessao__formacao__academica__item">
+                                <img class="formacao__academica__img__alura" src="./assets/alura.png" alt="alura">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span class="formacao__academica__span mt-1 mb-2">Formação UX design</span>
+                                <span class="formacao__academica__span__status">2019 - Alura</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="sessao__formacao__academica__item">
+                                <img class="formacao__academica__img__ufrj" src="./assets/ufrj.png" alt="ufrj">
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <span class="formacao__academica__span mt-1 mb-2">Pós-graduação desing</span>
+                                <span class="formacao__academica__span__status">Em andamento - UFRJ</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sessao__experiencia__profissional">
+            <div class="experiencia__profissional__nome">
+                <p>Experiência profissional</p>
+            </div>
+
+            <div class="experiencia__decodificador__container">
+                <div>
+                    <img class="experiencia__decodificador__img" src="./assets/Rectangle.png" alt="">
+                </div>
+                <div class="experiencia__decodificador__itens">
+                    <p class="decodificador__texto1">Decodificador de texto</p>
+                    <p class="decodificador__texto2">Challenge Alura Codificador</p>
+                    <button class="decodificador__texto__button1 me-2">Repositório</button>
+                    <button class="decodificador__texto__button2">Ver demo</button>
+                </div>
+            </div>
+
+            <div class="experiencia__decodificador__container">
+                <div class="experiencia__decodificador__itens">
+                    <p class="decodificador__texto1">Decodificador de texto</p>
+                    <p class="decodificador__texto2">Challenge Alura Codificador</p>
+                    <button class="decodificador__texto__button1 me-2">Repositório</button>
+                    <button class="decodificador__texto__button2">Ver demo</button>
+                </div>
+                <div>
+                    <img class="experiencia__decodificador__img" src="./assets/jogoForca.png" alt="">
+                </div>
+            </div>
+
         </section>
     </main>
 
