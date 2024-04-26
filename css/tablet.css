@@ -1,0 +1,193 @@
+@media (max-width: 769px) {
+  /* SESSÃO CABEÇALHO HEADER */
+
+  .cabecalho__nomes__itens .sobre-mim,
+  .skills,
+  .hobbies,
+  .formacao,
+  .projetos {
+    display: none;
+  }
+
+  /* SESSÃO APRESENTAÇÃO */
+  .sessao__apresentacao__container {
+    display: flex;
+    align-items: center;
+    margin: 40px 32px;
+  }
+
+  .sessao__apresentacao__perfil h1 {
+    width: 524px;
+    height: 52px;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left;
+  }
+
+  .sessao__apresentacao__perfil p {
+    width: 524px;
+    height: 38px;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: left;
+  }
+
+  .img {
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  /* SESSÃO SOBRE MIM */
+  .sessao__sobre__mim__itens {
+    margin: 32px 32px;
+  }
+
+  .sessao__sobre__mim__itens div h2 {
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+
+  .sessao__sobre__mim__itens div p {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  /* SESSÃO SKILLS */
+
+  .sessao__skill {
+    margin: 32px 32px;
+  }
+
+  .sessao__skill__nome {
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+
+  .sessao__skill__itens ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 32px;
+  }
+
+  /* SESSÃO HOBBIES */
+  .sessao__hobbies {
+    margin: 32px 32px;
+  }
+
+  .sessao__hobbies__nome {
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+
+  .sessao__hobbies__itens ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 32px;
+  }
+
+  /* SESSÃO FORMAÇÃO ACADÊMICA */
+
+  .sessao__formacao__academica__nome p {
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+
+  .sessao__formacao__academica__itens__container {
+    margin: 32px 32px;
+  }
+
+  .sessao__formacao__academica__item {
+    width: 224px;
+    height: 118px;
+  }
+
+  .formacao__academica__img__ufpr {
+    width: 125px;
+    height: 70px;
+  }
+
+  .formacao__academica__img__alura {
+    width: 125px;
+    height: 70px;
+  }
+
+  .formacao__academica__img__ufrj {
+    width: 125px;
+    height: 70px;
+  }
+
+  .formacao__academica__span {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .formacao__academica__span__status {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  /* SESSÃO EXPERIÊNCIA PROFISSIONAL*/
+
+  .experiencia__profissional__nome {
+    font-size: 22px;
+    line-height: 25.83px;
+    padding: 32px 0px 0px 0px;
+  }
+
+  /* jogo decodificador*/
+
+  .experiencia__decodificador__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 32px;
+  }
+
+  .experiencia__decodificador__container .img-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .experiencia__decodificador__img {
+    padding: 16px 0px;
+  }
+
+  .experiencia__decodificador__itens {
+    padding: 0px 0px;
+  }
+
+  .decodificador__texto1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 18.78px;
+  }
+
+  .decodificador__texto2 {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .decodificador__texto__button1 {
+    width: 108px;
+    height: 40px;
+    gap: 10px;
+  }
+
+  .decodificador__texto__button2 {
+    width: 108px;
+    height: 40px;
+  }
+
+    /* jogo forca*/
+
+}

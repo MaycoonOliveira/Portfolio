@@ -119,7 +119,6 @@
   width: 80%;
   height: 100%;
   border-radius: 50%;
-
 }
 
 /* SESSÃO SOBRE MIM */
@@ -216,6 +215,7 @@
 }
 
 .skill__img__react {
+  color: #2a7ae4;
   width: 32px;
   height: 37px;
 }
@@ -447,7 +447,6 @@
   gap: 10px;
   border: 1px solid #2a7ae4;
   color: #2a7ae4;
-
 }
 
 .decodificador__texto__button2 {
@@ -459,5 +458,246 @@
   color: #ffffff;
 }
 
+.experiencia__jogo__forca__container {
+  display: flex;
+  padding: 0px 152px;
+}
 
+.experiencia__jogo__forca__itens {
+  padding: 147px 16px;
+}
 
+.jogo__forca__texto1 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  color: #464646;
+}
+
+.jogo__forca__texto2 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.jogo__forca__texto__button1 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+}
+
+.jogo__forca__texto__button2 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  background-color: #2a7ae4;
+  color: #ffffff;
+}
+
+.experiencia__jogo__forc__img {
+  width: 640px;
+  height: 426px;
+  padding: 10px 0px 64px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.experiencia__codigo__secreto__container {
+  display: flex;
+  padding: 0px 152px;
+}
+
+.experiencia__codigo__secreto__img {
+  width: 640px;
+  height: 426px;
+  padding: 10px 0px 64px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.experiencia__codigo__secreto__itens {
+  padding: 147px 16px;
+}
+
+.codigo__secreto__texto1 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  color: #464646;
+}
+
+.codigo__secreto__texto2 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.codigo__secreto__texto__button1 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+}
+
+.codigo__secreto__texto__button2 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  background-color: #2a7ae4;
+  color: #ffffff;
+}
+
+.experiencia__jogo__forca__2__container {
+  display: flex;
+  padding: 0px 152px;
+}
+
+.experiencia__jogo__forca__2__itens {
+  padding: 147px 16px;
+}
+
+.jogo__forca__2__texto1 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  color: #464646;
+}
+
+.jogo__forca__2__texto2 {
+  padding-bottom: 8px;
+  margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.jogo__forca__2__texto__button1 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+}
+
+.jogo__forca__2__texto__button2 {
+  width: 116px;
+  height: 51px;
+  gap: 10px;
+  border: 1px solid #2a7ae4;
+  background-color: #2a7ae4;
+  color: #ffffff;
+}
+
+.jogo__forc__2__img {
+  width: 640px;
+  height: 426px;
+  padding: 10px 0px 64px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+/* SESSÃO CONTATO */
+
+.contato__container {
+  display: flex;
+  flex-direction: column;
+  background: #eaf2fd;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.contato__container__itens {
+  display: flex;
+  margin: 64px 152px;
+}
+
+.contat__img {
+  width: 464px;
+  height: 593px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.contato__itens__form {
+  display: flex;
+}
+
+.contato__nome{
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: left;
+  color: #464646;
+}
+
+.contato__nome__desc{
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+  color: #464646;
+}
+
+.contato__itens__form__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato__itens__form__input input {
+  width: 656px;
+  height: 56px;
+  gap: 4px;
+  border-radius: 4px 0px 0px 0px;
+  background: #ffffff;
+}
+
+.input__item {
+  width: 656px;
+  height: 1px;
+  top: 55px;
+  gap: 0px;
+  opacity: 0px;
+  background: #c8c8c8;
+}
+
+.div__inputs{
+  padding-bottom: 25px;
+}

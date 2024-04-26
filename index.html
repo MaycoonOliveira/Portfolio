@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tablet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Portfólio</title>
@@ -22,12 +23,12 @@
             </div>
 
             <div class="cabecalho__nomes__itens">
-                <a class="links" href="#">Sobre mim</a>
-                <a class="links" href="#">Skills</a>
-                <a class="links" href="#">Hobbies</a>
-                <a class="links" href="#">Formação</a>
-                <a class="links" href="#">Projetos</a>
-                <a class="links" href="#">maycon009silva@gmail.com</a>
+                <a class="links sobre-mim" href="#sobre-mim">Sobre mim</a>
+                <a class="links skills" href="#skills">Skills</a>
+                <a class="links hobbies" href="#hobbies">Hobbies</a>
+                <a class="links formacao" href="#formacao">Formação</a>
+                <a class="links projetos" href="#projetos">Projetos</a>
+                <a class="links contato" href="#contato">Contato</a>
             </div>
 
         </nav>
@@ -37,22 +38,23 @@
         <section class="sessao__apresentacao__container">
             <div class="sessao__apresentacao__perfil">
                 <h1>Olá, meu nome é Maycon Oliveira e construo páginas web</h1>
-                <p>Eu sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou participando no projeto
+                <p>Sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou participando no projeto
                     Oracle ONE na Alura.</p>
 
 
                 <div class="sessao__apresentacao__links__container">
                     <ul>
                         <li>
-                            <a class="links" href="#">Github</a>
+                            <a class="links" target="_blank" href="https://github.com/MaycoonOliveira">Github</a>
                             <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
-                            <a class="links" href="#">Linkedin</a>
+                            <a class="links" target="_blank" href="www.linkedin.com/in/maycon-oliver">Linkedin</a>
                             <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
-                            <a class="links" href="#">Instagram</a>
+                            <a class="links" target="_blank"
+                                href="https://www.instagram.com/_oliveiramayc/">Instagram</a>
                             <img src="./assets/seta.png" alt="seta">
                         </li>
                         <li>
@@ -70,34 +72,47 @@
 
         </section>
 
-        <section class="sessao__sobre__mim__container">
+        <section class="sessao__sobre__mim__container" id="sobre-mim">
             <div class="sessao__sobre__mim__itens">
                 <div>
                     <h2>Sobre mim</h2>
 
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
-                        semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-                        potenti. Ut semper sagittis ligula et lacinia.
+                    <p>
+                        Olá, é um prazer ter você visitando meu perfil.
                         <br>
                         <br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
-                        semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-                        potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus
-                        vitae, aliquet metus.
+                        Atualmente, sou desenvolvedor de software Front-end Jr com experiência no framework Angular, Git
+                        e SVN para controle de versões. Trabalhando com HTML, CSS, JavaScript, Bootstrap, Angular
+                        Material.
+                        <br>
+                        Estou cursando Especialização Front-End em React na Alura e participando do projeto Oracle ONE.
+                        <br>
+                        <br>
+
+                        Sou formado em Análise e Desenvolvimento de Sistemas e estou em busca de novas
+                        oportunidades para trabalhar em projetos. Tenho um grande interesse em aprender e aprimorar
+                        minhas habilidades nessa área e estou motivado a enfrentar novos desafios.
+                        <br>
+                        <br>
+                        Agradeço sua atenção, estou ansioso para seguir minha jornada profissional.
+                        Se tiver alguma dúvida ou oportunidade para compartilhar, estarei a disposição em
+                        conversar. Forte abraço!
+                        <br>
+                        <br>
                     </p>
                 </div>
                 <div>
-                    <img src="./assets/assinatura.png" alt="">
+                    <!--  <img src="./assets/assinatura.png" alt=""> -->
                 </div>
 
             </div>
         </section>
 
         <section class="sessao__skills__container">
-            <div class="sessao__skill">
+            <div class="sessao__skill" id="skills">
 
                 <p class="sessao__skill__nome">Skills</p>
 
@@ -108,31 +123,32 @@
                             <span class="skill__span">HTML</span>
                         </li>
                         <li>
+                            <img class="skill__img__css" src="./assets/css.png" alt="CSS">
+                            <span class="skill__span">CSS</span>
+                        </li>
+                        <li>
                             <img class="skill__img__js" src="./assets/JS.png" alt="JavaScript">
                             <span class="skill__span">JavaScript</span>
                         </li>
-                        <li>
+                        <!-- <li>
                             <img class="skill__img__php" src="./assets/php.png" alt="php">
                             <span class="skill__span">PHP</span>
-                        </li>
+                        </li> -->
                         <li>
                             <img class="skill__img__node" src="./assets/node.png" alt="node">
                             <span class="skill__span">Node JS</span>
                         </li>
                         <li>
-                            <img class="skill__img__react" src="./assets/react.png" alt="React">
-                            <span class="skill__span">React</span>
+                            <img class="skill__img__react" src="./assets/Angular_full_color_logo.svg.png" alt="React">
+                            <span class="skill__span">Angular</span>
                         </li>
-                        <li>
-                            <img class="skill__img__css" src="./assets/css.png" alt="CSS">
-                            <span class="skill__span">CSS</span>
-                        </li>
+
                     </ul>
                 </div>
 
             </div>
 
-            <div class="sessao__hobbies">
+            <div class="sessao__hobbies" id="hobbies">
 
                 <p class="sessao__hobbies__nome">Hobbies</p>
 
@@ -142,10 +158,10 @@
                             <img class="hobbies__img__skate" src="./assets/andar-de-skate.png" alt="Andar de skate">
                             <span class="hobbies__span">Andar de skate</span>
                         </li>
-                        <li>
+                        <!-- <li>
                             <img class="hobbies__img__guitar" src="./assets/guitar.png" alt="Tocar baixo">
                             <span class="hobbies__span">Tocar baixo</span>
-                        </li>
+                        </li> -->
                         <li>
                             <img class="hobbies__img__headphones" src="./assets/headphones_black.png"
                                 alt="Ouvir música">
@@ -168,7 +184,7 @@
 
             </div>
 
-            <div class="sessao__formacao__academica__container">
+            <div class="sessao__formacao__academica__container" id="formacao">
                 <div class="sessao__formacao__academica">
                     <div class="sessao__formacao__academica__nome">
                         <p class="sessao__formacao__academica__nome">Formação Acadêmica</p>
@@ -178,11 +194,25 @@
 
                         <div>
                             <div class="sessao__formacao__academica__item">
-                                <img class="formacao__academica__img__ufpr" src="./assets/UFPR.png" alt="ufpr">
+                                <img class="formacao__academica__img__ufpr" src="./assets/logoAnhanuera.jpg" alt="ufpr">
                             </div>
                             <div class="d-flex flex-column">
-                                <span class="formacao__academica__span mt-1 mb-2">Análise de dados</span>
-                                <span class="formacao__academica__span__status">2018 - UFRP</span>
+                                <span class="formacao__academica__span mt-1 mb-2">Análise e Desenvolvimento de
+                                    Sistemas</span>
+                                <span class="formacao__academica__span__status">2023 - Anhanguera</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="sessao__formacao__academica__item">
+                                <img class="formacao__academica__img__ufrj" src="./assets/logo_cubos.png" alt="ufrj">
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <span class="formacao__academica__span mt-1 mb-2">
+                                    Desenvolvimento de Software - Foco em <br>Backend - iFood
+                                </span>
+                                <span class="formacao__academica__span__status">2023 - Cubos - Academy</span>
                             </div>
                         </div>
 
@@ -191,19 +221,8 @@
                                 <img class="formacao__academica__img__alura" src="./assets/alura.png" alt="alura">
                             </div>
                             <div class="d-flex flex-column">
-                                <span class="formacao__academica__span mt-1 mb-2">Formação UX design</span>
-                                <span class="formacao__academica__span__status">2019 - Alura</span>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="sessao__formacao__academica__item">
-                                <img class="formacao__academica__img__ufrj" src="./assets/ufrj.png" alt="ufrj">
-                            </div>
-
-                            <div class="d-flex flex-column">
-                                <span class="formacao__academica__span mt-1 mb-2">Pós-graduação desing</span>
-                                <span class="formacao__academica__span__status">Em andamento - UFRJ</span>
+                                <span class="formacao__academica__span mt-1 mb-2">Formação Front-end</span>
+                                <span class="formacao__academica__span__status">Em andamento - Alura</span>
                             </div>
                         </div>
 
@@ -214,13 +233,13 @@
 
         </section>
 
-        <section class="sessao__experiencia__profissional">
+        <section class="sessao__experiencia__profissional" id="projetos">
             <div class="experiencia__profissional__nome">
                 <p>Experiência profissional</p>
             </div>
 
             <div class="experiencia__decodificador__container">
-                <div>
+                <div class="img-1">
                     <img class="experiencia__decodificador__img" src="./assets/Rectangle.png" alt="">
                 </div>
                 <div class="experiencia__decodificador__itens">
@@ -231,26 +250,100 @@
                 </div>
             </div>
 
-            <div class="experiencia__decodificador__container">
-                <div class="experiencia__decodificador__itens">
-                    <p class="decodificador__texto1">Decodificador de texto</p>
-                    <p class="decodificador__texto2">Challenge Alura Codificador</p>
-                    <button class="decodificador__texto__button1 me-2">Repositório</button>
-                    <button class="decodificador__texto__button2">Ver demo</button>
+            <div class="experiencia__jogo__forca__container">
+                <div class="experiencia__jogo__forca__itens">
+                    <p class="jogo__forca__texto1">Jogo criado com HTML, CSS e JavaScript</p>
+                    <p class="jogo__forca__texto2">Challenge Oracle</p>
+                    <button class="jogo__forca__texto__button1 me-2">Repositório</button>
+                    <button class="jogo__forca__texto__button2">Ver demo</button>
                 </div>
                 <div>
-                    <img class="experiencia__decodificador__img" src="./assets/jogoForca.png" alt="">
+                    <img class="experiencia__jogo__forc__img" src="./assets/jogoForca.png" alt="">
                 </div>
             </div>
 
+            <div class="experiencia__codigo__secreto__container">
+                <div>
+                    <img class="experiencia__codigo__secreto__img" src="./assets/códigoSecreto.png" alt="">
+                </div>
+                <div class="experiencia__codigo__secreto__itens">
+                    <p class="codigo__secreto__texto1">Decodificador de texto</p>
+                    <p class="codigo__secreto__texto2">Challenge Alura Codificador</p>
+                    <button class="codigo__secreto__texto__button1 me-2">Repositório</button>
+                    <button class="codigo__secreto__texto__button2">Ver demo</button>
+                </div>
+            </div>
+
+            <div class="experiencia__jogo__forca__2__container">
+                <div class="experiencia__jogo__forca__2__itens">
+                    <p class="jogo__forca__2__texto1">Jogo criado com HTML, CSS e JavaScript</p>
+                    <p class="jogo__forca__2__texto2">Challenge Oracle</p>
+                    <button class="jogo__forca__2__texto__button1 me-2">Repositório</button>
+                    <button class="jogo__forca__2__texto__button2">Ver demo</button>
+                </div>
+                <div>
+                    <img class="jogo__forc__2__img" src="./assets/forca2.png" alt="">
+                </div>
+            </div>
         </section>
+
+
     </main>
 
-    <section></section>
 
-    <ul></ul>
 
-    <footer></footer>
+    <footer>
+        <div class="contato__container" id="contato">
+            <div class="contato__container__itens">
+                <div class="pe-3">
+                    <img class="contat__img" src="./assets/contato.png" alt="">
+                </div>
+                <div class="">
+                    <div>
+                        <p class="contato__nome">Contato</p>
+                        <p class="contato__nome__desc">Quer entrar em contato comigo? Preencha o formulário ao lado e
+                            entrarei em contato o mais
+                            rápido possível.</p>
+                    </div>
+                    <!-- <div>
+                        <form action="" class="contato__itens__form__input">
+                            <input  class="input__item" type="text">
+                            <input  class="input__item" type="text">
+                            <input  class="input__item" type="text">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </form>
+                        <button type="submit"></button>
+                    </div> -->
+
+                    <form>
+                        <div class="form-group div__inputs">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control p-3" id="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group div__inputs">
+                            <label for="email">Digite seu e-mail</label>
+                            <input type="email" class="form-control p-3" id="email" placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="form-group div__inputs">
+                            <input type="text" class="form-control p-3" id="text" placeholder="Assunto">
+                        </div>
+                        <div class="form-group div__inputs">
+                            <textarea class="form-control" placeholder="Mensagem" id="exampleFormControlTextarea1"
+                                rows="4"></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Enivar Mensagem</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-lg-4 mb-5">
+            <p> Desenvolvido por Maycon Oliveira 2024</p>
+        </div>
+    </footer>
 </body>
 
 </html>
